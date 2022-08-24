@@ -1,0 +1,13 @@
+POST http://localhost:4321/api/v1/auth/login
+Content-Type: application/json
+
+{
+    "code":"AQAA1x02HBZZKtx41LeqKtdAhf4vj7clI2pFn3a5VB6FBqQmq7aVAmClxAZShdxy9PdT9RDtP3Hu5D8l74K3E91qFqYsiCLBTwAPS1w6JdcOfsYSOuQ1oktVHCImhVFBspIKHON2JcxOT4NN5zlY7Tr_EDL98c5pRlwmXD6-2xczYIHGX86HuzY1_7AVtMIxmg4RCMti1e0zbgYpHjBSMI7QbQgFF2pzY1aueIBOuvNctsrgsYdhZ1Va37b4U_QHQHUjjLmYTIHiuhymdxL46kfIs-XRQ_NsLhydyXcDiw58toKzKWOtwmd90lCp7vukWXXlMWcDYv_BdfewY9G9LAC0KlIFHg"
+}
+############
+POST http://localhost:4321/api/v1/auth/refresh
+Content-Type: application/json
+
+{
+    "refreshToken":"AQC0cP36We0Fh6nOCuthRldn2r9H8uzP9SNfynLEtV8c9uu88pcw8o464b1ZIF6FywnN59fWdSEH0JY9fBcJz-iQlFpbnZ-uJaK4D3JJjcc9Bj9xhjQ61-Gz-6H_rsheGOw"
+}
